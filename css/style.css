@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #5232ed;
+  height: 100vh;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-height: 70px;
+  gap: 15px;
+  width: 100%;
+  padding: 0 15px;
+  background-color: #482ecb;
+}
+.header .logo {
+  padding-left: 15px;
+}
+.header .logo img {
+  width: 200px;
+  height: 40px;
+}
+.header .logo .logo-icon {
+  margin-left: 10px;
+  height: 30px;
+  width: 30px;
+}
+.header .menu {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  padding-right: 10px;
+}
+.header .menu a {
+  padding-right: 10px;
+}
+.header .menu a img {
+  height: 30px;
+  width: 30px;
+}
+
+.section {
+  width: 100%;
+  min-height: calc(100vh - 140px);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  color: #ffffff;
+  background-color: #482ecb;
+}
+
+@media (max-width: 530px) {
+  .header {
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+  }
+}
+.section-index-desc {
+  text-align: center;
+  width: 100%;
+  padding: 15px 10px;
+  color: #ffffff;
+}
+.section-index-desc p {
+  padding-top: 100px;
+  font-size: 22px;
+}
+.section-index-desc h3 {
+  padding-top: 20px;
+  font-size: 35px;
+}
+
+.section-index {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 2em 1em;
+  width: 100%;
+  padding: 40px 0;
+}
+.section-index .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5dc;
+  max-width: 250px;
+  height: 300px;
+  padding: 20px 10px;
+  border-radius: 10px;
+  margin: 10px;
+  transition: background-color 0.5s, box-shadow 0.5s;
+}
+.section-index .card .card-icon {
+  width: 64px;
+  height: 64px;
+}
+.section-index .card-html:hover {
+  background-color: #ee6b47;
+  transition: 0.5s;
+  box-shadow: 10px 5px 5px #482ecb;
+}
+.section-index .card-css:hover {
+  background-color: #027fff;
+  transition: 0.5s;
+  box-shadow: 10px 5px 5px #482ecb;
+}
+.section-index .card-js:hover {
+  background-color: #f3c516;
+  transition: 0.5s;
+  box-shadow: 10px 5px 5px #482ecb;
+}
+.section-index .card-games:hover {
+  background-color: #44de80;
+  transition: 0.5s;
+  box-shadow: 10px 5px 5px #482ecb;
+}
+.section-index .card-ux:hover {
+  background-color: #ff5c8d;
+  transition: 0.5s;
+  box-shadow: 10px 5px 5px #482ecb;
+}
+
+/*# sourceMappingURL=style.css.map */

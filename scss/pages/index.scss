@@ -1,0 +1,83 @@
+.section-index-desc {
+    text-align: center;
+    width: 100%;
+    padding: 15px 10px;
+    color: $primary-color-text;
+
+    p { 
+        padding-top: 100px;
+        font-size: 22px;
+    }
+
+    h3 {
+        padding-top: 20px;
+        font-size: 35px;
+    }
+}
+
+.section-index {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 2em 1em;
+    width: 100%;
+    padding: 40px 0;
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $background-color-card;
+        max-width: 250px;
+        height: 300px;
+        padding: 20px 10px;
+        border-radius: 10px;
+        margin: 10px;
+        transition: background-color .5s, box-shadow .5s;
+
+        .card-icon {
+            width: 64px;
+            height: 64px;
+        }
+
+    }
+
+    .card-html:hover {
+        background-color: $background-color-html;
+        transition: .5s;
+        box-shadow: 10px 5px 5px $box-shadow-color;
+
+    }
+
+    .card-css:hover {
+        background-color: $background-color-css;
+        transition: .5s;
+        box-shadow: 10px 5px 5px $box-shadow-color;
+
+    }
+
+    .card-js:hover {
+        background-color: $background-color-js;
+        transition: .5s;
+        box-shadow: 10px 5px 5px $box-shadow-color;
+
+    }
+
+    .card-games:hover {
+        background-color: $background-color-games;
+        transition: .5s;
+        box-shadow: 10px 5px 5px $box-shadow-color;
+
+    }
+
+    .card-ux:hover {
+        background-color: $background-color-ux;
+        transition: .5s;
+        box-shadow: 10px 5px 5px $box-shadow-color;
+
+    }
+
+}
+
